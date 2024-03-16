@@ -4,10 +4,8 @@
 
 Сделаем сборку server  
    <img width="981" alt="Снимок экрана 2024-03-16 в 15 10 05" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/bd1df931-6116-43a4-ab60-23aa7341a6e3">
-
 С помощью команды docker-compose up -d развернем сервисы. В браузере по адресу localhost:5001 увидим результат
    <img width="986" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/0b544a26-d45f-4bd5-892b-2e46ad06976c">
-
 # Trivy
 
 Установим trivy.
