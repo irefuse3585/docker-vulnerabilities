@@ -5,22 +5,18 @@
 Сделаем сборку server  
    <img width="981" alt="Снимок экрана 2024-03-16 в 15 10 05" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/bd1df931-6116-43a4-ab60-23aa7341a6e3">
 
-   
 С помощью команды docker-compose up -d развернем сервисы. В браузере по адресу localhost:5001 увидим результат
    <img width="986" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/0b544a26-d45f-4bd5-892b-2e46ad06976c">
 
-   
 # Trivy
 
 Установим trivy.
 
 <img width="976" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/547d3429-2388-4e06-b00f-0f6f3fe80bd2">
 
-
 Запустим сканирование. В начале произойдет загрузка БД с уязвимостями. Далее появятся найденные уязвимости.
 
 <img width="987" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/3755c552-b0fb-4586-8da5-c0ca96712a50">
-
 
 Результат сканирования:
 
@@ -37,19 +33,15 @@
 
 <img width="594" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/8d9d7add-8f71-4102-a78e-07b1f15ccc20">
 
-
 Запустим ее:
 
 <img width="698" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/1a402789-4401-43cd-8c0c-676707c15479">
-
 
 Получим счет:
 
 <img width="144" alt="image" src="https://github.com/irefuse3585/docker-vulnerabilities/assets/76556696/2ba648ae-685c-4553-bc74-6a03581c0f62">
 
-
 В результате работы программы видим следующие предупреждения:
-
 
 **1.1.1 - Ensure a separate partition for containers has been created (Automated) - "Убедитесь, что отдельное разделение для контейнеров было создано (Автоматизировано)."**
 
